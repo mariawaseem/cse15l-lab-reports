@@ -9,3 +9,9 @@ Hi!
 * MATH 18
 * ANTH 106
 
+**Days of the week:**
+* Monday
+* Tuesday
+* Wednesday
+* Thursday
+* Friday
