@@ -4,7 +4,8 @@ Hi!
 
 ---
 
-![Image][1]
-⋮
-[1]: https://w7.pngwing.com/pngs/542/94/png-transparent-kitten-and-wool-woolen-red-kitten.png
+* CSE 12
+* CSE 15L
+* MATH 18
+* ANTH 106
 
