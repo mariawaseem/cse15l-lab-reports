@@ -26,13 +26,13 @@ Now your terminal is connected to a computer in the CSE basement, which is where
 Try running the commands cd, ls, pwd, mkdir, and cp in a few different words on both *your* computer and the remote computer after ssh-ing.
 
 Here are some other useful commands to try:
-* cd ~
-* cd
-* ls -lat
-* ls -a
-* ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15l22XXX (replace XXX with the letters in your account)
-* cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+* ```cd ~```
+* ```cd```
+* ```ls -lat```
+* ```ls -a```
+* ```ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15l22XXX (replace XXX with the letters in your account)```
+* ```cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/```
+* ```cat /home/linux/ieng6/cs15lwi22/public/hello.txt```
 
 To log out of the remote server in your terminal:
 * Ctrl-D
@@ -88,6 +88,7 @@ After doing this, you should be able to ssh or scp from this client to the serve
 
 ![step6report1](step6report1.png)
 
+I don't remember exactly how I did this, but if I were to have used only up-arrow strokes to enter most of the commands, I would probably have done about 27 keystrokes including editing WhereAmI.java. I could have maybe lessened this number even more by copy pasting my edit into WhereAmI.java and having ```javac WhereAmI.java; java WhereAmI.java``` as one line that I could access all together by up-arrow-ing. Also, if I knew I was already in the right directory, I could have cut out the keystrokes for entering ```ls```. If I had done all this, my keystroke count might have closer to about 8 (including Ctrl+S to save the edits) if you didn't count the mouse clicks of copy pasting the edits to WhereAmI.java. If you include those, the count might be more like 10. 
 
 
 
