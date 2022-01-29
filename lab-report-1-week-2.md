@@ -26,13 +26,13 @@ Now your terminal is connected to a computer in the CSE basement, which is where
 Try running the commands cd, ls, pwd, mkdir, and cp in a few different words on both *your* computer and the remote computer after ssh-ing.
 
 Here are some other useful commands to try:
-* ```cd ~```
-* ```cd```
-* ```ls -lat```
-* ```ls -a```
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls -a`
 * ```ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15l22XXX (replace XXX with the letters in your account)```
-* ```cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/```
-* ```cat /home/linux/ieng6/cs15lwi22/public/hello.txt```
+* `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 To log out of the remote server in your terminal:
 * Ctrl-D
@@ -59,7 +59,7 @@ class WhereAmI {
 }
 ```
 
-2. Then, in the terminal from the directory where you made WhereAmI.java, run the command ![step4.1report1](step4.1report1.png)
+2. Then, in the terminal from the directory where you made WhereAmI.java, run the command `scp WhereAmI.java cs15lwi22XXX@ieng6.ucsd.edu:~/!`
  using your username. Enter your password, log into ieng6 with ssh again, and use ls. WhereAmI.java should be in your home directory. Now you can use javac and java to run WhereAmI.java on the ieng6 computer.
 
  ![step4.2report1](step4.2report1.png)
