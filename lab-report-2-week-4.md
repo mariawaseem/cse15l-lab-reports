@@ -1,16 +1,18 @@
 # Bug 1
 
+The failure-inducing input was having an extra open paren in the link address. This, again, caused the symptom of an infinite loop and OutOfMemoryError.
 
+![Bug1Symptom](bug1report2.png)
 
 # Bug 2
 
-The failure-inducing input was having an extra open paren in the link address. This caused the symptom of an infinite loop and OutOfMemoryError.
+The failure-inducing input was having the entire link format inside parentheses. This, once again, caused the symptom of an infinite loop and OutOfMemoryError.
 
 ![Bug2Symptom](bug2report2.png)
 
 # Bug 3
 
-The failure-inducing input was having the entire link format inside parentheses. This caused the symptom of an infinite loop and OutOfMemoryError.
+The failure-inducing input was having the entire link format inside brackets. This caused the symptom of an infinite loop and OutOfMemoryError.
 
 ![Bug3Symptom](bug3report2.png)
 
