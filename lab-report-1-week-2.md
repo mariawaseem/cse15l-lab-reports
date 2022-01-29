@@ -68,7 +68,7 @@ class WhereAmI {
 
 Run the following (with your name) on the client (your computer) to set up an ssh key with the program ssh-keygen:
 
-![step5.1report1](step5report1.png)
+![step5.1report1](step5.1report1.png)
 
 **Note:** If you are on Windows, follow the extra ssh-add steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
