@@ -1,5 +1,5 @@
 Hi!
-**I am Maria**
+**I am Maria.**
 *Welcome to this page.*
 
 ---
