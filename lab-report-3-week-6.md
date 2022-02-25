@@ -12,6 +12,8 @@ The ssh command logging me into my account using the alias that I chose:
 
 The scp command copying the file hello.md to my account using just the alias that I chose:
 
-(I don't think it worked, but I'm not sure how to do it)
-
 ![scpcommand](scpcommand.png)
+
+You can use `vim hellocpy.txt` to check that the content of `hello.txt` were copied correctly:
+
+![checkcontents](contentcorrect.png)
