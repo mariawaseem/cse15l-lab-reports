@@ -99,11 +99,17 @@ This test failed and you can see that the expected output was `https://ucsd-cse1
 
 # Three Questions:
 
-1. Snippet 1: It seems that MarkdownParse works for cases that use inline code with backticks. The problem was that it also included `url.com`, which was not part of the expected output (as seen on the CommonMark Demo Site). "`[a link`" is inline code because of the backticks (\`[a link\`]) and breaks the link. So, Markdown Parse should not include `url.com` as a valid link. To fix this, you could use an if statement that checks for an "open" and "close" backticks in a link and their placement in that link. Backticks inside brackets/parentheses produce links that work and "close" backticks after the closing parenthesis also produce a link that works.
+__1. Snippet 1:__
 
-2. Snippet 2: Both my implementation and the review code's implementation didn't fail for the snippet 2 test.
+It seems that MarkdownParse works for cases that use inline code with backticks. The problem was that it also included `url.com`, which was not part of the expected output (as seen on the CommonMark Demo Site). "`[a link`" is inline code because of the backticks (\`[a link\`]) and breaks the link. So, Markdown Parse should not include `url.com` as a valid link. To fix this, you could use an if statement that checks for an "open" and "close" backticks in a link and their placement in that link. Backticks inside brackets/parentheses produce links that work and "close" backticks after the closing parenthesis also produce a link that works.
 
-3. Snippet 3: My implementation outputed a lot more than what was expected, which was just one link. According to the CommonMark Demo Site, `https://www.twitter.com` and `https://cse.ucsd.edu/` do not create valid links. My implementation included these, but also included 
+__2. Snippet 2:__
+
+Both my implementation and the review code's implementation didn't fail for the snippet 2 test.
+
+__3. Snippet 3:__
+
+My implementation outputed a lot more than what was expected, which was just one link. According to the CommonMark Demo Site, `https://www.twitter.com` and `https://cse.ucsd.edu/` do not create valid links. My implementation included these, but also included 
 ```
 github.com
 
