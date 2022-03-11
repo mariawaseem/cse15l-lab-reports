@@ -7,6 +7,12 @@ Link to the markdown-parse repository we reviewed: [ReviewedRepo](https://github
 # Tests:
 ## Snippet 1 Test:
 
+__Commonmark:__
+
+![Commonmark1](commonmark1.png)
+
+``` `google.com ```, `google.com`, and `ucsd.edu` become valid links
+
 __My implementation:__
 
 Code in MarkdownParseTest.java:
@@ -34,6 +40,12 @@ This test failed and you can see that `url.com` was part of the actual output, b
 
 ## Snippet 2 Test:
 
+__Commonmark:__
+
+![Commonmark2](commonmark2.png)
+
+`a.com`, `a.com((`, and `example.com` become valid links
+
 __My implementation:__
 
 Code in MarkdownParseTest.java:
@@ -60,6 +72,12 @@ Corresponding output:
 This test didn't fail, so it doesn't show up in the list of failed tests. There were 4 failures and the test for snippet 2 was not one of them.
 
 ## Snippet 3 Test:
+
+__Commonmark:__
+
+![Commonmark3](commonmark3.png)
+
+only `https://ucsd-cse15l-wi22.github.io/` becomes a valid link
 
 __My implementation:__
 
